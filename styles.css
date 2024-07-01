@@ -826,3 +826,41 @@
   } 
 
   /*#endregion*/
+
+  @media (max-width: 768px) {
+    .body {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .img {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        max-width: 400px;
+    }
+    .divMain {
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .creditosCss {
+      text-align: center;
+        position: relative;
+        bottom: auto;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    .Btn_linkedin, .Btn_instagram, .Btn_github {
+        width: 120px;
+        height: 20px;
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .descr {
+      font-size: 130%;
+    }
+}
